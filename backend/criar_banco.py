@@ -3,9 +3,9 @@ import psycopg2
 # Constantes
 DB_USER = "postgres"
 DB_PASSWORD = "Roth1908"
-DB_HOST = "database-p2.cvjp5ekhxkye.us-east-1.rds.amazonaws.com"
+DB_HOST = "database2p.cvjp5ekhxkye.us-east-1.rds.amazonaws.com"
 DB_PORT = "5432"
-DB_NAME = "database-p2"
+DB_NAME = "postgres"
 
 # Conexão com o banco
 con = psycopg2.connect(
